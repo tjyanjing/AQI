@@ -9,7 +9,7 @@ library(grid)
 library(gridExtra)
 library(RColorBrewer)
 
-register_google(key="AIzaSyB9mcIVWWbIsmmNsaN0UBfB3naWHT7Psns")
+register_google(key="XXX")
 
 dt3 <- read.csv("Traffic_Collision_Data_from_2010_to_Present.csv")
 dt3$Date.Occurred <- mdy(as.character(dt3$Date.Occurred))
